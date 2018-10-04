@@ -17,12 +17,13 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
-                    "type": "csv"
+                    "input": "df",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
                 }
             ],
             "source": "clean.R",
-            "target": "data.csv"
+            "target": "MergeArrest.R"
         }
     ],
     "nodes": [
@@ -42,6 +43,6 @@
             "name": "MergeArrest.R"
         }
     ],
-    "updated_at": "2018-10-04 17:07:56",
+    "updated_at": "2018-10-04 17:09:57",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
