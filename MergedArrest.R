@@ -7,6 +7,8 @@ colnames(dfArrest) <- "stateName"
 str(dfArrest)
 str(census)
 
+dfMerged <- merged
+
 
 
 statenames <- rownames(dfArrest)
