@@ -3,11 +3,12 @@
 
 readStates <-function(states)
 {
-#remove rows that are not needed
+    #remove rows that are not needed
     states<- states[-1,]
-#last row is Puerto Rico and not needed
+    #last row is Puerto Rico and not needed
     num.row <- nrow(states)
     
+    #remove the first for columns
     states <- states[-num.row,]
     
     states <- states[,-1:-4]
