@@ -11,8 +11,12 @@ readStates <-function(states)
     #remove the first for columns
     states <- states[-num.row,]
     
+    
+    
     #change the names of the columns
     states <- states[,-1:-4]
+    
+    colnames(states) <- c("stateName", "population", "popOver18", "percentOver18")
     
     return(states)
     }
