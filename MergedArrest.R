@@ -5,7 +5,7 @@ dfArrest <- USArrests
 #Change the columnname of the USArrest to "stateName"
 
 
-View(census)
+str(census)
 
 statenames <- rownames(dfArrest)
 
