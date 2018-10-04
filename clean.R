@@ -1,6 +1,4 @@
 
-clean_data <- raw_data
-
 #re-use the code from berfore
 
 readStates <- function(states)
@@ -14,7 +12,7 @@ readStates <- function(states)
     states <- states[,-1:-4]
     
     return(states)
-    
-}
+    }
 
 cleanCensus <- readStates(raw_data)
+str(cleanCensus)
