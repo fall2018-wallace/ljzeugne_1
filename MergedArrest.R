@@ -1,4 +1,3 @@
 
 dfArrest <- USArrests
-
-str(census)
+statenames <- rownames(dfArrest)
