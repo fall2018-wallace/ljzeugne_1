@@ -13,9 +13,10 @@ readStates <-function(states)
     
     
     
-    #change the names of the columns
+    #delete the first four columns
     states <- states[,-1:-4]
     
+    #rename the remaining columns
     colnames(states) <- c("stateName", "population", "popOver18", "percentOver18")
     
     #return the results
