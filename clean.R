@@ -11,6 +11,7 @@ readStates <-function(states)
     #remove the first for columns
     states <- states[-num.row,]
     
+    #change the names of the columns
     states <- states[,-1:-4]
     
     return(states)
