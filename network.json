@@ -13,6 +13,17 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergedArrest.R"
         }
     ],
     "nodes": [
@@ -32,6 +43,6 @@
             "name": "MergedArrest.R"
         }
     ],
-    "updated_at": "2018-10-04 17:12:55",
+    "updated_at": "2018-10-04 17:19:25",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
