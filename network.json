@@ -13,11 +13,6 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [],
-            "source": "clean.R",
-            "target": "MergeArrest.R"
         }
     ],
     "nodes": [
@@ -31,14 +26,8 @@
         },
         {
             "name": "data.csv"
-        },
-        {
-            "assigned_to": "ljzeugne",
-            "desc": "",
-            "name": "MergeArrest.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-04 17:12:38",
+    "updated_at": "2018-10-04 17:12:45",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
