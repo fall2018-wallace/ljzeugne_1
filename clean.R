@@ -1,9 +1,9 @@
 
-#re-use the code from berfore
+#re-use the code from before
 
-readStates <- function(states)
+readStates <-function(states)
 {
-    states<- states [-1,]
+    states<- states[-1,]
     
     num.row <- nrow(states)
     
