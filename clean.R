@@ -12,9 +12,7 @@ readStates <- function(states)
     states <- states[-num.row,]
     
     states <- states[,-1:-4]
-
     
-    
-    
+    return(states)
     
 }
