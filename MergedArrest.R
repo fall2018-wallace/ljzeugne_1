@@ -3,14 +3,7 @@
 dfArrest <- USArrests
 
 #Change the columnname of the USArrest to "stateName"
-colnames(dfArrest) <- "stateName"
-str(dfArrest)
-str(census)
-
-dfMerged <- merged
 
 
-
-statenames <- rownames(dfArrest)
 
 
