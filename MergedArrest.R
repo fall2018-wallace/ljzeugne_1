@@ -6,4 +6,4 @@ dfArrest <- USArrests
 
 str(dfArrest)
 
-
+names(USArrest[1]) <- "stateName"
