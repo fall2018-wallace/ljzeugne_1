@@ -7,3 +7,4 @@ dfArrest <- USArrests
 str(dfArrest)
 
 names(dfArrest[1]) <- "stateName"
+View(dfArrest)
