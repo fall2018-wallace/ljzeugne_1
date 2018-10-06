@@ -4,6 +4,6 @@ dfArrest <- USArrests
 
 #Change the columnname of the USArrest to "stateName"
 
-
+str(dfArrest)
 
 
