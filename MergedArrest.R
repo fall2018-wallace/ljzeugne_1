@@ -1,10 +1,12 @@
 
-#assign USArrest dataset into local variable
-dfArrest <- USArrests
+Arrest <- USArrests
 
-#Change the columnname of the USArrest to "stateName"
+StateName <- rownames(Arrest)
+rownames(Arrest) <- NULL
+dfArrest <- cbind(StateName,Arrest)
+View(newdf)
 
-str(dfArrest)
 
-names(dfArrest[1]) <- "stateName"
-View(dfArrest)
+str(dfcensusData)
+
+merge(dfArrest, dfcensusData, by= "StateName")
