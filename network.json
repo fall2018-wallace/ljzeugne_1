@@ -45,6 +45,16 @@
             ],
             "source": "Visualizations.R",
             "target": "HistPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MurderRate",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "HistMurderrate.png"
         }
     ],
     "nodes": [
@@ -78,6 +88,6 @@
             "name": "HistMurderrate.png"
         }
     ],
-    "updated_at": "2018-10-07 16:18:48",
+    "updated_at": "2018-10-07 16:18:59",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
