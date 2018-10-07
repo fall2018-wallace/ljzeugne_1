@@ -105,6 +105,16 @@
             ],
             "source": "Visualizations.R",
             "target": "BoxMurderRate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurderPerState",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "BarMurderPerState.png"
         }
     ],
     "nodes": [
@@ -156,6 +166,6 @@
             "name": "BarMurderPerState.png"
         }
     ],
-    "updated_at": "2018-10-07 16:24:22",
+    "updated_at": "2018-10-07 16:24:40",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
