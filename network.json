@@ -145,6 +145,16 @@
             ],
             "source": "Visualizations.R",
             "target": "BarMurderPerState4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "Scatterplot.png"
         }
     ],
     "nodes": [
@@ -208,6 +218,6 @@
             "name": "Scatterplot.png"
         }
     ],
-    "updated_at": "2018-10-07 16:27:06",
+    "updated_at": "2018-10-07 16:27:13",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
