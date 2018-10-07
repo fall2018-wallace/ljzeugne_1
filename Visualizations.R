@@ -6,7 +6,6 @@ str(dfMerged)
  histPopulation <- histPopulation + ggtitle("States population histogram")
  histPopulation
  
- 
  #Histogram of Murder Rate
  MurderRate <- ggplot(dfMerged, aes(x=Murder))
  MurderRate <- MurderRate + geom_histogram(binwidth = 2.5, color= "black", fill="white")
