@@ -44,7 +44,7 @@
                 }
             ],
             "source": "Visualizations.R",
-            "target": "plot8353.png"
+            "target": "HistPopulation.png"
         }
     ],
     "nodes": [
@@ -72,9 +72,9 @@
             "task_status": "in progress"
         },
         {
-            "name": "plot8353.png"
+            "name": "HistPopulation.png"
         }
     ],
-    "updated_at": "2018-10-07 16:03:53",
+    "updated_at": "2018-10-07 16:17:57",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
