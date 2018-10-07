@@ -55,3 +55,44 @@ str(dfMerged)
  #for people not familiar with descripitive statistics. Therefore, the histogram appears to be the better solution in this case.
  #However, the boxplot shares probably more insightful information than the histogram. 
  
+ #Step C
+ #Calculate the number of murder per state
+ AdjPopulation <- dfMerged$Population/100000
+ MurderPerState <- AdjPopulation * dfMerged$Murder
+ dfMerged$MurderPerState <- MurderPerState
+ states <- dfMerged$StateName
+ names(MurderPerState) <- states
+ MurderPerState
+ 
+ 
+  
+ #Bar Chart with the number of Murder per State
+ 
+ BarMurderPerState1 <- ggplot(dfMerged, aes(x=reorder(stateName, MurderPerState), y=MurderPerState, group = 1 ))
+ BarMurderPerState1 <- BarMurderPerState1 + geom_col()
+ BarMurderPerState1 <- BarMurderPerState1 + theme(axis.text.x = element_text(angle =270, hjust = 1))
+ BarMurderPerState1 <- BarMurderPerState1 + ggtitle('Total Murders per State')
+ BarMurderPerState1
+ 
+ 
+ BarMurderPerState2 <- ggplot(dfMerged, aes(x=reorder(stateName, MurderPerState), y=MurderPerState, group = 1 ))
+ BarMurderPerState2 <- BarMurderPerState2 + geom_col()
+ BarMurderPerState2 <- BarMurderPerState2 + theme(axis.text.x = element_text(angle =90, hjust = 1))
+ BarMurderPerState2 <- BarMurderPerState2 + ggtitle('Total Murders per State')
+ BarMurderPerState2
+ 
+ BarMurderPerState3 <- ggplot(dfMerged, aes(x=reorder(stateName, Murder), y=MurderPerState, group = 1 ))
+ BarMurderPerState3 <- BarMurderPerState3 + geom_col()
+ BarMurderPerState3 <- BarMurderPerState3 + theme(axis.text.x = element_text(angle =90, hjust = 1))
+ BarMurderPerState3 <- BarMurderPerState3 + ggtitle('Total Murders per State')
+ BarMurderPerState3
+ 
+ BarMurderPerState4 <- ggplot(dfMerged, aes(x=reorder(stateName, MurderPerState), y=MurderPerState, fill = PercentOver18 ))
+ BarMurderPerState4 <- BarMurderPerState4 + geom_col()
+ BarMurderPerState4 <- BarMurderPerState4 + theme(axis.text.x = element_text(angle =90, hjust = 1))
+ BarMurderPerState4 <- BarMurderPerState4 + ggtitle('Total Murders per State')
+ BarMurderPerState4
+ 
+ 
+ 
+ 
