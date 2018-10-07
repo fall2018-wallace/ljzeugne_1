@@ -112,8 +112,11 @@
         },
         {
             "name": "HistUrbanPop.png"
+        },
+        {
+            "name": "HistRapeRate.png"
         }
     ],
-    "updated_at": "2018-10-07 16:20:31",
+    "updated_at": "2018-10-07 16:20:55",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
