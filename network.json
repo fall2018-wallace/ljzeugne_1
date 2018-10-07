@@ -109,7 +109,7 @@
         {
             "ports": [
                 {
-                    "output": "BarMurderPerState",
+                    "output": "BarMurderPerState1",
                     "type": "png"
                 }
             ],
@@ -166,6 +166,6 @@
             "name": "BarMurderPerState.png"
         }
     ],
-    "updated_at": "2018-10-07 16:24:40",
+    "updated_at": "2018-10-07 16:25:29",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
