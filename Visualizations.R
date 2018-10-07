@@ -37,7 +37,7 @@ str(dfMerged)
  
  
  #Boxplot for the population
- boxPopulaton <- ggplot(dfMerged, aes(x=factor(0), Population)) 
+ boxPopulaton <- ggplot(dfMerged, aes(x=factor(0), population)) 
  boxPopulaton <- boxPopulaton + geom_boxplot()
  boxPopulaton <- boxPopulaton + ggtitle('Population')
  boxPopulaton
@@ -54,7 +54,7 @@ str(dfMerged)
  
  #Step C
  #Calculate the number of murder per state
- AdjPopulation <- dfMerged$Population/100000
+ AdjPopulation <- dfMerged$population/100000
  MurderPerState <- AdjPopulation * dfMerged$Murder
  dfMerged$MurderPerState <- MurderPerState
  states <- dfMerged$StateName
