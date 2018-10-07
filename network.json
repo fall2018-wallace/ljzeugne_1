@@ -85,6 +85,16 @@
             ],
             "source": "Visualizations.R",
             "target": "HistRapeRate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxPopulaton",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "BoxPopulation.png"
         }
     ],
     "nodes": [
@@ -130,6 +140,6 @@
             "name": "BoxPopulation.png"
         }
     ],
-    "updated_at": "2018-10-07 16:23:16",
+    "updated_at": "2018-10-07 16:23:28",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
