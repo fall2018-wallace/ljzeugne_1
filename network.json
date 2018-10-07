@@ -65,6 +65,16 @@
             ],
             "source": "Visualizations.R",
             "target": "HistAssaultrate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "UrbanPop",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "HistUrbanPop.png"
         }
     ],
     "nodes": [
@@ -104,6 +114,6 @@
             "name": "HistUrbanPop.png"
         }
     ],
-    "updated_at": "2018-10-07 16:20:21",
+    "updated_at": "2018-10-07 16:20:31",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
