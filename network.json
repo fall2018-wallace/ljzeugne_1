@@ -86,8 +86,11 @@
         },
         {
             "name": "HistMurderrate.png"
+        },
+        {
+            "name": "HistAssaultrate.png"
         }
     ],
-    "updated_at": "2018-10-07 16:18:59",
+    "updated_at": "2018-10-07 16:19:45",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
