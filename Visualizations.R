@@ -12,3 +12,16 @@ str(dfMerged)
  MurderRate <- MurderRate + geom_histogram(binwidth = 2.5, color= "black", fill="white")
  MurderRate <- MurderRate + ggtitle("States Murderrate Histogram")
  MurderRate
+ 
+ 
+ #Histogram of Assault Rate
+ AssaultRate <- ggplot(dfMerged, aes(x=Assault))
+ AssaultRate <- AssaultRate + geom_histogram(binwidth = 50, color= "black", fill="white")
+ AssaultRate <- AssaultRate + ggtitle("States Assault Rate Histogram")
+ AssaultRate
+ 
+ 
+ UrbanPop <- ggplot(dfMerged, aes(x=UrbanPop))
+ UrbanPop <- UrbanPop + geom_histogram(binwidth = 15, color= "black", fill="white")
+ UrbanPop <- UrbanPop + ggtitle("Urban Population Histogram")
+ UrbanPop
