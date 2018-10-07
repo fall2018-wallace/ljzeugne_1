@@ -95,6 +95,16 @@
             ],
             "source": "Visualizations.R",
             "target": "BoxPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxMurderRate",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "BoxMurderRate.png"
         }
     ],
     "nodes": [
@@ -143,6 +153,6 @@
             "name": "BoxMurderRate.png"
         }
     ],
-    "updated_at": "2018-10-07 16:23:44",
+    "updated_at": "2018-10-07 16:23:56",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
