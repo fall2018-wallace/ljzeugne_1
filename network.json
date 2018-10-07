@@ -35,6 +35,16 @@
             ],
             "source": "MergedArrest.R",
             "target": "Visualizations.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "plot8353.png"
         }
     ],
     "nodes": [
@@ -65,6 +75,6 @@
             "name": "plot8353.png"
         }
     ],
-    "updated_at": "2018-10-07 15:54:06",
+    "updated_at": "2018-10-07 16:03:53",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
