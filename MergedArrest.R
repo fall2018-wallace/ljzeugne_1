@@ -1,4 +1,5 @@
 
+#Assign USArrest dataset to a local variable 
 Arrest <- USArrests
 
 StateName <- rownames(Arrest)
@@ -10,3 +11,4 @@ View(newdf)
 str(dfcensusData)
 
 merge(dfArrest, dfcensusData, by= "StateName")
+
