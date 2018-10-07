@@ -1,5 +1,6 @@
 
 str(dfMerged)
+
  #Histogram of Population
  histPopulation <- ggplot(dfMerged, aes(x=population))
  histPopulation <- histPopulation + geom_histogram(binwidth = 5000000, color= "black", fill="white")
@@ -12,7 +13,6 @@ str(dfMerged)
  MurderRate <- MurderRate + ggtitle("States Murderrate Histogram")
  MurderRate
  
- 
  #Histogram of Assault Rate
  AssaultRate <- ggplot(dfMerged, aes(x=Assault))
  AssaultRate <- AssaultRate + geom_histogram(binwidth = 50, color= "black", fill="white")
@@ -24,7 +24,6 @@ str(dfMerged)
  UrbanPop <- UrbanPop + geom_histogram(binwidth = 15, color= "black", fill="white")
  UrbanPop <- UrbanPop + ggtitle("Urban Population Histogram")
  UrbanPop
- 
  
  #Histogram of Rape
  Rape  <- ggplot(dfMerged, aes(x=Rape))
@@ -42,13 +41,11 @@ str(dfMerged)
  boxPopulaton <- boxPopulaton + ggtitle('Population')
  boxPopulaton
  
- 
  #Boxplot for Murder rate
  boxMurderRate <- ggplot(dfMerged, aes(x=factor(0), Murder)) 
  boxMurderRate <- boxMurderRate + geom_boxplot()
  boxMurderRate <- boxMurderRate + ggtitle('Murder Rate')
  boxMurderRate
- 
  
  #While I think a box plot is an extremely powerful visualization, I believe that it is harder to understand
  #for people not familiar with descripitive statistics. Therefore, the histogram appears to be the better solution in this case.
@@ -63,8 +60,6 @@ str(dfMerged)
  names(MurderPerState) <- states
  MurderPerState
  
- 
-  
  #Bar Chart with the number of Murder per State
  
  BarMurderPerState1 <- ggplot(dfMerged, aes(x=reorder(stateName, MurderPerState), y=MurderPerState, group = 1 ))
@@ -91,7 +86,6 @@ str(dfMerged)
  BarMurderPerState4 <- BarMurderPerState4 + theme(axis.text.x = element_text(angle =90, hjust = 1))
  BarMurderPerState4 <- BarMurderPerState4 + ggtitle('Total Murders per State')
  BarMurderPerState4
- 
  
  #Step D: Generate a Scatterplot with population on the x-axis, percenover18 on the y axis and siz and color represent the murderrate
  Scatter <- ggplot(dfMerged, aes(x=population, y = PercentOver18))
