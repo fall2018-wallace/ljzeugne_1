@@ -151,8 +151,11 @@
         },
         {
             "name": "BoxMurderRate.png"
+        },
+        {
+            "name": "BarMurderPerState.png"
         }
     ],
-    "updated_at": "2018-10-07 16:23:56",
+    "updated_at": "2018-10-07 16:24:22",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
