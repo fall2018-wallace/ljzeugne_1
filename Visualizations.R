@@ -82,7 +82,7 @@ str(dfMerged)
  BarMurderPerState3 <- BarMurderPerState3 + ggtitle('Total Murders per State')
  BarMurderPerState3
  
- BarMurderPerState4 <- ggplot(dfMerged, aes(x=reorder(stateName, MurderPerState), y=MurderPerState, fill = PercentOver18 ))
+ BarMurderPerState4 <- ggplot(dfMerged, aes(x=reorder(stateName, MurderPerState), y=MurderPerState, fill = percentOver18 ))
  BarMurderPerState4 <- BarMurderPerState4 + geom_col()
  BarMurderPerState4 <- BarMurderPerState4 + theme(axis.text.x = element_text(angle =90, hjust = 1))
  BarMurderPerState4 <- BarMurderPerState4 + ggtitle('Total Murders per State')
