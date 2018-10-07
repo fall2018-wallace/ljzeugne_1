@@ -24,16 +24,6 @@
             ],
             "source": "clean.R",
             "target": "MergedArrest.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "dfMerged",
-                    "type": "png"
-                }
-            ],
-            "source": "MergedArrest.R",
-            "target": "PopHistogram.png"
         }
     ],
     "nodes": [
@@ -53,11 +43,8 @@
             "desc": "",
             "name": "MergedArrest.R",
             "task_status": "in progress"
-        },
-        {
-            "name": "PopHistogram.png"
         }
     ],
-    "updated_at": "2018-10-07 15:45:27",
+    "updated_at": "2018-10-07 15:45:45",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
