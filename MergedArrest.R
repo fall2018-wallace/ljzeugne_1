@@ -11,6 +11,6 @@ rownames(Arrest) <- NULL
 #add a new column to the dataframe
 dfArrest <- cbind(StateName,Arrest)
 
-
+str(dfArrest)
 dfMerged <- merge(dfArrest, census, by= "StateName")
  
