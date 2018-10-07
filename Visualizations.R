@@ -33,3 +33,13 @@ str(dfMerged)
  Rape <- Rape + ggtitle("Urban Population Histogram")
  Rape
  
+ #Histogram Comment: In order to display the different histograms it is imperative to change the binwidth as otherwise all of the data are 
+ #dispayed in only one bin, given that the bin width of the population is extraordinary big.
+ 
+ 
+ #Boxplot for the population
+ boxPopulaton <- ggplot(dfMerged, aes(x=factor(0), Population)) 
+ boxPopulaton <- boxPopulaton + geom_boxplot()
+ boxPopulaton <- boxPopulaton + ggtitle('Population')
+ boxPopulaton
+ 
