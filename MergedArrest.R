@@ -9,7 +9,7 @@ stateName <- rownames(Arrest)
 #Delete existing rownames column from dataset
 rownames(Arrest) <- NULL
 #add a new column to the dataframe
-dfArrest <- cbind(StateName,Arrest)
+dfArrest <- cbind(stateName,Arrest)
 
 
 
