@@ -12,5 +12,6 @@ rownames(Arrest) <- NULL
 dfArrest <- cbind(StateName,Arrest)
 
 str(dfArrest)
+
 dfMerged <- merge(dfArrest, census, by= "StateName")
  
