@@ -56,10 +56,15 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "ljzeugne",
             "desc": "",
-            "name": "Visualizations.R"
+            "name": "Visualizations.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot8353.png"
         }
     ],
-    "updated_at": "2018-10-07 15:46:58",
+    "updated_at": "2018-10-07 15:54:06",
     "url": "https://github.com/fall2018-wallace/ljzeugne_1"
 }
