@@ -20,8 +20,16 @@ str(dfMerged)
  AssaultRate <- AssaultRate + ggtitle("States Assault Rate Histogram")
  AssaultRate
  
- 
+ #Histogram of Urban Population
  UrbanPop <- ggplot(dfMerged, aes(x=UrbanPop))
  UrbanPop <- UrbanPop + geom_histogram(binwidth = 15, color= "black", fill="white")
  UrbanPop <- UrbanPop + ggtitle("Urban Population Histogram")
  UrbanPop
+ 
+ 
+ #Histogram of Rape
+ Rape  <- ggplot(dfMerged, aes(x=Rape))
+ Rape <- Rape + geom_histogram(binwidth = 10, color= "black", fill="white")
+ Rape <- Rape + ggtitle("Urban Population Histogram")
+ Rape
+ 
