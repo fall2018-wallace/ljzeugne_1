@@ -14,4 +14,5 @@ dfArrest <- cbind(stateName,Arrest)
 
 
 dfMerged <- merge(dfArrest, census, by= "stateName")
+str(dfMerged)
  
