@@ -89,7 +89,7 @@ str(dfMerged)
  BarMurderPerState4
  
  #Step D: Generate a Scatterplot with population on the x-axis, percenover18 on the y axis and siz and color represent the murderrate
- Scatter <- ggplot(dfMerged, aes(x=population, y = PercentOver18))
+ Scatter <- ggplot(dfMerged, aes(x=population, y = percentOver18))
  Scatter <- Scatter + geom_point(aes(size = Murder, color = Murder))
  Scatter
  
