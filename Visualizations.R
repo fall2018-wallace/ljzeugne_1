@@ -1,4 +1,5 @@
 
+library(ggplot2)
 str(dfMerged)
 
  #Histogram of Population
