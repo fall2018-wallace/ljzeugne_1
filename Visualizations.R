@@ -43,3 +43,15 @@ str(dfMerged)
  boxPopulaton <- boxPopulaton + ggtitle('Population')
  boxPopulaton
  
+ 
+ #Boxplot for Murder rate
+ boxMurderRate <- ggplot(dfMerged, aes(x=factor(0), Murder)) 
+ boxMurderRate <- boxMurderRate + geom_boxplot()
+ boxMurderRate <- boxMurderRate + ggtitle('Murder Rate')
+ boxMurderRate
+ 
+ 
+ #While I think a box plot is an extremely powerful visualization, I believe that it is harder to understand
+ #for people not familiar with descripitive statistics. Therefore, the histogram appears to be the better solution in this case.
+ #However, the boxplot shares probably more insightful information than the histogram. 
+ 
