@@ -11,7 +11,7 @@ str(dfMerged)
  #Histogram of Murder Rate
  MurderRate <- ggplot(dfMerged, aes(x=Murder))
  MurderRate <- MurderRate + geom_histogram(binwidth = 2.5, color= "black", fill="white")
- MurderRate <- MurderRate + ggtitle("States Murderrate Histogram")
+ MurderRate <- MurderRate + ggtitle("Murderate in U.S. States (per 100.000 people)")
  MurderRate
  
  #Histogram of Assault Rate
