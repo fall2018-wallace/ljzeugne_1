@@ -4,7 +4,7 @@ str(dfMerged)
 
  #Histogram of Population
  histPopulation <- ggplot(dfMerged, aes(x=population))
- histPopulation <- histPopulation + geom_histogram(binwidth = 5000000, color= "black", fill="red")
+ histPopulation <- histPopulation + geom_histogram(binwidth = 5000000, color= "black", fill="green")
  histPopulation <- histPopulation + ggtitle("Population of States in the United States")
  histPopulation
  
