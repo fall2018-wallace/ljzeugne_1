@@ -1,0 +1,223 @@
+{
+    "collaborators": [
+        "ljzeugne"
+    ],
+    "created_at": "2018-10-04 16:42:55",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "output": "cleanCensus",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "MergedArrest.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfMerged",
+                    "output": "dfMerged",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "MergedArrest.R",
+            "target": "Visualizations.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "histPopulation",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "HistPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MurderRate",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "HistMurderrate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "AssaultRate",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "HistAssaultrate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "UrbanPop",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "HistUrbanPop.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Rape",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "HistRapeRate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxPopulaton",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "BoxPopulation.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "boxMurderRate",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "BoxMurderRate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurderPerState1",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "BarMurderPerState.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurderPerState2",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "BarMurderPerState2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurderPerState2",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "BarMurderPerState3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "BarMurderPerState4",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "BarMurderPerState4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "Scatter",
+                    "type": "png"
+                }
+            ],
+            "source": "Visualizations.R",
+            "target": "Scatterplot.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "ljzeugne",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "ljzeugne",
+            "desc": "",
+            "name": "MergedArrest.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "ljzeugne",
+            "desc": "",
+            "name": "Visualizations.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "HistPopulation.png"
+        },
+        {
+            "name": "HistMurderrate.png"
+        },
+        {
+            "name": "HistAssaultrate.png"
+        },
+        {
+            "name": "HistUrbanPop.png"
+        },
+        {
+            "name": "HistRapeRate.png"
+        },
+        {
+            "name": "BoxPopulation.png"
+        },
+        {
+            "name": "BoxMurderRate.png"
+        },
+        {
+            "name": "BarMurderPerState.png"
+        },
+        {
+            "name": "BarMurderPerState2.png"
+        },
+        {
+            "name": "BarMurderPerState3.png"
+        },
+        {
+            "name": "BarMurderPerState4.png"
+        },
+        {
+            "name": "Scatterplot.png"
+        }
+    ],
+    "updated_at": "2018-10-07 16:27:13",
+    "url": "https://github.com/fall2018-wallace/ljzeugne_1"
+}
